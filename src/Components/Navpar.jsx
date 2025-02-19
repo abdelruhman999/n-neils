@@ -18,10 +18,9 @@ import vid1 from '../assets/WhatsApp Video 2025-02-19 at 15.51.37_cf388fd5.mp4';
 import vid2 from '../assets/WhatsApp Video 2025-02-19 at 15.51.38_1f8b44e3.mp4';
 import vid3 from '../assets/WhatsApp Video 2025-02-19 at 15.51.38_5a122658.mp4';
 
-import { FaWhatsapp, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp, FaFacebook,FaInstagram } from "react-icons/fa";
 import { BsEnvelopeFill } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
-import { TiSocialTwitter } from "react-icons/ti";
 import { Langcontext } from '../pages/Home';
 
 export default function Navpar() {
@@ -30,9 +29,9 @@ export default function Navpar() {
  
    const text = lang === 'عربي' ? {
      contactUs: 'اتصل بنا',
-     phone: '01102840567',
+     phone: '+20 115 821 8598',
      email: 'Contact@GuitaraAgenCy.com',
-     location: '1 محمود الطيـمور، ألماظة، هليوبوليس، القاهرة',
+     location: 'المعصره ',
      name:'نهى لأظافر ورموش الجمال',
      aboutTitle: 'يبدأ جمالك مع الأظافر والرموش – حيث يلتقي السحر مع الأناقة',
      aboutDesc: 'في Noha’s Glam Nails & Lashes نقدم خدمات متميزة للأظافر الاصطناعية والرموش لمساعدتك في الحصول على مظهر أنيق وجميل. نفخر باستخدام أحدث التقنيات والمواد عالية الجودة لإضفاء لمسة من الجمال الفاخر. سواء كنتِ تبحثين عن أظافر مشكَّلة بدقة أو رموش ساحرة، نحن هنا لنجعل كل لحظة تعكس جمالك الطبيعي.',
@@ -40,9 +39,9 @@ export default function Navpar() {
      footerText: '©2025 GuitaraGroup | جميع الحقوق محفوظة'
    } : {
      contactUs: 'Contact Us',
-     phone: '+2 01102840567',
+     phone: '+20 115 821 8598',
      email: 'Contact@GuitaraAgenCy.com',
-     location: '1 Mahmoud Taimour St, Almaza, Heliopolis, Cairo',
+     location: '1 elmasara, Cairo',
      name:'Noha’s Glam Nails & Lashes',
      aboutTitle: 'Your Beauty Begins with Nails & Lashes – Where Glamour Meets Elegance',
      aboutDesc: 'At Noha’s Glam Nails & Lashes, we offer top-tier services for artificial nails and lashes to help you achieve a stunning and elegant look. We take pride in using the latest techniques and high-quality materials to give you a touch of luxurious beauty. Whether you\'re looking for perfectly shaped nails or mesmerizing lashes, we’re here to make every moment reflect your natural beauty.',
@@ -153,10 +152,12 @@ export default function Navpar() {
 
           <div className="flex flex-col gap-[20px] xs:gap-0 items-center">
             <div className="flex gap-[30px]">
+              <a href="https://www.facebook.com/profile.php?id=61572989114543&sk=about">
               <FaFacebook className="text-3xl hover:text-blue-600 cursor-pointer hover:-translate-y-1 duration-200" />
-              <TiSocialTwitter className="text-3xl hover:text-blue-600 cursor-pointer hover:-translate-y-1 duration-200" />
-              <FaLinkedin className="text-3xl hover:text-blue-600 cursor-pointer hover:-translate-y-1 duration-200" />
+              </a>
+             <a href="https://www.facebook.com/profile.php?id=61572989114543&sk=about">
               <FaInstagram className="text-3xl hover:text-blue-600 cursor-pointer hover:-translate-y-1 duration-200" />
+             </a>
             </div>
             <div className="bg-gray-300 h-[2px]"></div>
           </div>
