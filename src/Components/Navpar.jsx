@@ -126,7 +126,7 @@ export default function Navpar() {
         <img src={logo15} className='w-[200px] xs:w-[150px]  rounded-lg hover:-translate-y-1 duration-200' />
        <video src={vid1} className='w-[300px]' controls />
        <video src={vid2} className='w-[300px]' controls />
-       <video src={vid3} className='w-[300px]' controls />
+       <video src={vid3} className='w-[300px]' controls />  
      
 
     
